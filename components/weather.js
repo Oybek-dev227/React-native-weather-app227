@@ -72,7 +72,7 @@ const weatherOptions = {
         iconName: 'weather-cloudy',
         gradient: ['#757F9A', '#D7DDE8'],
         title: 'Bu kun Bulutliy☁️',
-        description: 'Uyda utirmang ajoiyb havo bulmoqda!😊',
+        description: 'Uyda utiring qitmir havo bulmoqda!😒',
     },
 };
 
