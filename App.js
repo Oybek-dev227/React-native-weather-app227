@@ -1,4 +1,4 @@
-import {Alert, StyleSheet,} from 'react-native';
+import {Alert, Keyboard, StyleSheet,} from 'react-native';
 import Loader from "./components/loader";
 import {useEffect, useState} from "react";
 import Weather from "./components/weather";
@@ -23,6 +23,7 @@ export default function App() {
     const { data } = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}&units=metric`)
     setLocation(data)
     setIsLoading(false)
+    Keyboard.dismiss()
   }
 
 
